@@ -12,9 +12,9 @@ function browserRedirect() {
     var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
     var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
     if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-        window.location.href="http://114.67.228.191:8080/win10";
+        window.location.href="http://114.67.228.191:80/win10";
     } else {
-        window.location.href="http://114.67.228.191:8080/win10";
+        window.location.href="http://114.67.228.191:80/win10";
     }
 }
 browserRedirect();
